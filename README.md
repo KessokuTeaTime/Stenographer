@@ -4,7 +4,7 @@ Shorthand your language and value your localized gaming experience.
 
 **Stenographer do only one thing, for only one time everytime you launch your Minecraft:**
 
-### Stenographer changes your game language into your locale,<br/>only for once.
+### Stenographer changes your game language into your locale,<br/>only for once. [`Modrinth →`](https://modrinth.com/mod/stenographer)
 
 ## Why?
 
