@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.krlite.stenographer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "LanguageSetter"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
