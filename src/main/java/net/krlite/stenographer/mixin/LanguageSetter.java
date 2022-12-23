@@ -19,8 +19,6 @@ import java.util.Objects;
 public abstract class LanguageSetter {
 	@Mutable @Shadow public String language;
 
-	@Shadow public abstract void write();
-
 	@Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/option/GameOptions;load()V", shift = At.Shift.AFTER))
 	private void setLanguage(MinecraftClient client, File optionsFile, CallbackInfo ci) {
 		String language = (Locale.getDefault().getLanguage() + "_" + Locale.getDefault().getCountry()).toLowerCase();
