@@ -17,17 +17,13 @@ import java.util.Locale;
 public abstract class LanguageSetter {
 	@Mutable @Shadow public String language;
 
-	@Shadow public abstract void write();
-
 	@Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/option/GameOptions;load()V", shift = At.Shift.AFTER))
 	private void setLanguage(MinecraftClient client, File optionsFile, CallbackInfo ci) {
 		Locale locale = Locale.getDefault();
 		String language = (locale.getLanguage() + "_" + locale.getCountry()).toLowerCase();
-		if (!Stenographer.done && this.language.equals("en_us") && !this.language.equals(language)) { // Only set language if it's English or another language differing from current, and for only one time
-			Stenographer.LOGGER.info("Setting language to " + language + "...");
+		if (this.language.equals("en_us") && !this.language.equals(language)) { // Only set language if it's English or another language differing from current
+			Stenographer.LOGGER.info("[" + Stenographer.MOD_NAME + "] Setting language to " + language + "...");
 			this.language = language;
-			this.write();
-			Stenographer.stenoDone();
 		}
 	}
 }
