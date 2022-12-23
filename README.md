@@ -2,9 +2,13 @@
 
 Shorthand your language and value your localized gaming experience.
 
-**Stenographer do only one thing, for only one time everytime you launch your Minecraft:**
+### Stenographer changes your game language into your locale. [`Modrinth →`](https://modrinth.com/mod/stenographer)
 
-### Stenographer changes your game language into your locale,<br/>only for once. [`Modrinth →`](https://modrinth.com/mod/stenographer)
+**Due to different locale settings by different launchers, Stenographer isn't working on some launchers:**
+
+| Hello Minecraft! Launcher | Prism Launcher  | ManyMC      | PolyMC      |
+|---------------------------|-----------------|-------------|-------------|
+| `✓ Supported`             | `× Unsupported` | `? Unknown` | `? Unknown` |
 
 ## Why?
 
