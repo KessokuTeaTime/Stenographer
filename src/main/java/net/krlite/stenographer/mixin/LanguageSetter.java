@@ -41,14 +41,13 @@ public abstract class LanguageSetter {
 				}
 			}).filter(Objects::nonNull).filter(l -> !l.getLanguage().isEmpty() && !l.getCountry().isEmpty()).toArray(Locale[]::new); // Get preset locales from java
 			String[] languageCodes = Arrays.stream(locales).map(l -> (l.getLanguage() + "_" + l.getCountry()).toLowerCase()).distinct().toArray(String[]::new); // Get preset language codes from locales
-			String fixedFrom = "";
+			String fixedFrom = language;
 			if (Arrays.stream(languageCodes).anyMatch(l -> l.split("_")[1].equals(Locale.getDefault().getCountry().toLowerCase()))) {
-				fixedFrom = language;
 				language = Arrays.stream(languageCodes).filter(l -> l.split("_")[1].equals(Locale.getDefault().getCountry().toLowerCase())).findFirst().orElse("en_us");
 			}
 			/* The language should be fixed */
 
-			Stenographer.LOGGER.info("[" + Stenographer.MOD_NAME + "] Switching language to " + language + (!fixedFrom.isEmpty() ? ", fixed from " + fixedFrom + "." /* Log the unfixed language */ : "..."));
+			Stenographer.LOGGER.info("[" + Stenographer.MOD_NAME + "] Switching language to " + language + (!fixedFrom.equals(language) ? ", fixed from " + fixedFrom + "." /* Log the unfixed language */ : "..."));
 			this.language = language;
 		}
 	}
