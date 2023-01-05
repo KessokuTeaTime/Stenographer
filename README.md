@@ -1,8 +1,10 @@
+### <p align=right>[Modrinth `→`](https://modrinth.com/mod/stenographer)</p>
+
 # Stenographer
 
 Shorthand your language and value your localized gaming experience.
 
-### Stenographer automatically changes Minecraft language into your locale *as you launch.* [`Modrinth →`](https://modrinth.com/mod/stenographer)
+### Stenographer automatically changes Minecraft language into your locale *as you launch.*
 
 **Due to some bad locale settings by some launchers, Stenographer has to fix the language code by the specified country.**
 
