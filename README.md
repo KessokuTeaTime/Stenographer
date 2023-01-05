@@ -1,4 +1,4 @@
-### <p align=right>[Modrinth `→`](https://modrinth.com/mod/stenographer)</p>
+### <p align=right>[`→` Modrinth](https://modrinth.com/mod/stenographer)</p>
 
 # Stenographer
 
