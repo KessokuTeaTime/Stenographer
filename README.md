@@ -2,20 +2,7 @@
 
 # Stenographer
 
-Shorthand your language and value your localized gaming experience.
-
-### Stenographer automatically changes Minecraft language into your locale *as you launch.*
-
-**Due to some bad locale settings by some launchers, Stenographer has to fix the language code by the specified country.**
-
-Below is the list of supporting on different launchers:
-
-| Launcher                  | Support                  |
-|---------------------------|--------------------------|
-| Hello Minecraft! Launcher | `✓ Launcher`             |
-| Prism Launcher            | `× Launcher` - `✓ Fixed` |
-| ManyMC / PolyMC / MultiMC | `? Unknown` - `✓ Fixed`  |
-
+### Stenographer automatically changes Minecraft language into your locale[^locale] *as you launch.*
 
 ## Why?
 
@@ -30,3 +17,13 @@ Stenographer modifies the game language **only when it is English, and is not th
 If the language doesn't exist, it will just be English. If you want to disable the function, just uninstall Stenographer.
 
 ### Enjoy at your locale!
+
+[^locale]: Due to some **bad locale settings** made by some launchers, Stenographer has to fix the language code by the **specified country** you are in.
+
+    Below is the list of supporting on different launchers:
+
+    | Launcher                  | Support                  |
+    |---------------------------|--------------------------|
+    | Hello Minecraft! Launcher | `✓ Launcher`             |
+    | Prism Launcher            | `× Launcher` - `✓ Fixed` |
+    | ManyMC / PolyMC / MultiMC | `? Unknown` - `✓ Fixed`  |
