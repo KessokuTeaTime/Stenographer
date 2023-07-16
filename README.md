@@ -3,4 +3,4 @@
 ### Stenographer for `1.19+`
 
 > **Note**
-> This version of Stenographer is outdated. Newer modifies will only be made to the latst few versions.
+> This version of **Stenographer** is outdated. Newer modifies will only be made to the latst few versions.
