@@ -4,13 +4,13 @@
 
 ### Stenographer automatically changes Minecraft language into your locale[^locale] *as you launch.*
 
-## Why?
+### Why?
 
 For many players, it is just a waste of time to change the game language to their locales every time they launch Minecraft, as modifying the game options file is quite a hassle.
 
 Stenographer is very lightweight that it only has one mixin class, but providing a smooth and convenient first-sight game experience.
 
-## How?
+### How?
 
 Stenographer modifies the game language **only when it is English, and is not the same as your locale.** It does this everytime you launch Minecraft.
 
@@ -27,3 +27,7 @@ If the language doesn't exist, it will just be English. If you want to disable t
     | Hello Minecraft! Launcher | `✓ Launcher`             |
     | Prism Launcher            | `× Launcher` - `✓ Fixed` |
     | ManyMC / PolyMC / MultiMC | `? Unknown` - `✓ Fixed`  |
+
+## License
+
+**Knowledges** is available under the **[GNU Public License.](LICENSE)**
