@@ -30,4 +30,4 @@ If the language doesn't exist, it will just be English. If you want to disable t
 
 ## License
 
-**Knowledges** is available under the **[GNU Public License.](LICENSE)**
+**Knowledges** is licensed under the **[GNU General Public License v3.](LICENSE)**
