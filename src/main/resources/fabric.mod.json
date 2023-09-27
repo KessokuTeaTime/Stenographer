@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "Stenographer",
-  "description": "Shorthands your language and values your localized gaming experience.",
+  "description": "Localize Your Game Right After Launched!",
   "authors": [
-    "KrLite"
+    "Kessoku Tea Time"
   ],
   "contact": {
-    "homepage": "https://github.com/KrLite",
-    "sources": "https://github.com/KrLite/Stenographer"
+    "homepage": "https://github.com/KessokuTeaTime",
+    "sources": "https://github.com/KessokuTeaTime/Stenographer"
   },
 
   "license": "GPL-3.0",
@@ -19,7 +19,7 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "net.krlite.stenographer.Stenographer"
+      "band.kessokuteatime.stenographer.Stenographer"
     ]
   },
   "mixins": [
@@ -27,9 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.21",
+    "fabricloader": "*",
     "fabric-api": "*",
-    "minecraft": ["~1.20", "~1.20.1"]
+    "minecraft": "1.20.x"
   },
   "suggests": {
   }

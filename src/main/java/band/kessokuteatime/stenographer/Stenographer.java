@@ -1,4 +1,4 @@
-package net.krlite.stenographer;
+package band.kessokuteatime.stenographer;
 
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;

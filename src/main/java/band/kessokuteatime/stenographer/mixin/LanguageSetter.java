@@ -1,6 +1,6 @@
-package net.krlite.stenographer.mixin;
+package band.kessokuteatime.stenographer.mixin;
 
-import net.krlite.stenographer.Stenographer;
+import band.kessokuteatime.stenographer.Stenographer;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.GameOptions;
 import org.spongepowered.asm.mixin.Mixin;
