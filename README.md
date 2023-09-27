@@ -2,5 +2,5 @@
 
 ### Stenographer for Fabric `1.20~1.20.1`
 
-> **Note**
+> [!WARNING]
 > This version of **Stenographer** is outdated. Newer modifies will only be made to the latst few versions.
