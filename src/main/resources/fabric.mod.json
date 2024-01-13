@@ -9,8 +9,9 @@
     "Kessoku Tea Time"
   ],
   "contact": {
-    "homepage": "https://github.com/KessokuTeaTime",
-    "sources": "https://github.com/KessokuTeaTime/Stenographer"
+    "homepage": "https://modrinth.com/mod/stenographer",
+    "sources": "https://github.com/KessokuTeaTime/Stenographer",
+    "issues": "https://github.com/KessokuTeaTime/Stenographer/issues"
   },
 
   "license": "GPL-3.0",
